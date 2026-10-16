@@ -27,7 +27,7 @@ Báo cáo này trình bày kết quả kiểm thử hiệu năng hai endpoint c�
 > Ghi chú: DummyJSON chỉ mô phỏng việc thêm dữ liệu. Các thay đổi không được lưu thật.
 
 **Hình 1. Giao diện JMeter sau khi mở, cây Test Plan bên trái**
-![Giao diện JMeter](images/jmeter-01-giao-dien.png)
+![Giao diện JMeter](images/jmeter-01-giao-dien.PNG)
 
 ## 4. Thiết kế kịch bản
 
