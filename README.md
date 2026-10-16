@@ -32,16 +32,16 @@ Báo cáo này trình bày kết quả kiểm thử hiệu năng hai endpoint c�
 ## 4. Thiết kế kịch bản
 
 **Hình 2. Cấu hình Thread Group: 10 người dùng, ramp-up 10 giây, 5 vòng lặp**
-![Thread Group](images/jmeter-02-thread-group.png)
+![Thread Group](images/jmeter-02-thread-group.PNG)
 
 **Hình 3. Cấu hình HTTP Request cho GET /products**
-![HTTP Request](images/jmeter-03-http-request.png)
+![HTTP Request](images/jmeter-03-http-request.PNG)
 
 **Hình 4. Khẳng định mã 200 (Response Assertion)**
 ![Assertion](images/jmeter-04-assertion.png)
 
 **Hình 5. Nội dung body của request POST /products/add**
-![POST body](images/jmeter-05-post-request.png)
+![POST body](images/jmeter-05-post-request.PNG)
 
 Lệnh chạy kiểm thử:
 
@@ -52,7 +52,7 @@ jmeter -n -t DummyJSON_LoadTest.jmx -l ket_qua.jtl -e -o bao_cao_html
 ## 5. Kết quả chi tiết từng mẫu
 
 **Hình 6. View Results Tree: các request thành công và thất bại**
-![View Results Tree](images/jmeter-06-view-results-tree.png)
+![View Results Tree](images/jmeter-06-view-results-tree.PNG)
 
 ## 6. Kết quả tổng hợp
 
@@ -63,10 +63,10 @@ jmeter -n -t DummyJSON_LoadTest.jmx -l ket_qua.jtl -e -o bao_cao_html
 | **Tổng** | **100** | **50** | **50%** | **711,8** | **305** | **284** | **8715** | **573,5** | **4705,9** | **8706,0** | **8,30** |
 
 **Hình 7. Summary Report**
-![Summary Report](images/jmeter-07-summary-report.png)
+![Summary Report](images/jmeter-07-summary-report.PNG)
 
 **Hình 8. Aggregate Report với phân vị 90%, 95%, 99%**
-![Aggregate Report](images/jmeter-08-aggregate-report.png)
+![Aggregate Report](images/jmeter-08-aggregate-report.PNG)
 
 ## 7. Phân tích
 
@@ -104,10 +104,10 @@ awk -F, 'NR>1 && $8=="false" {print $4}' ket_qua.jtl | sort | uniq -c
 ## 9. Minh họa báo cáo HTML
 
 **Hình 9. Dashboard báo cáo HTML (biểu đồ Response Times và Throughput)**
-![Dashboard HTML](images/jmeter-09-dashboard-html.png)
+![Dashboard HTML](images/jmeter-09-dashboard-html.PNG)
 
 **Hình 10. Kết quả chạy từ dòng lệnh**
-![CLI output](images/jmeter-10-cli-output.png)
+![CLI output](images/jmeter-10-cli-output.PNG)
 
 ## 10. Khuyến nghị
 
