@@ -38,7 +38,7 @@ Báo cáo này trình bày kết quả kiểm thử hiệu năng hai endpoint c�
 ![HTTP Request](images/jmeter-03-http-request.PNG)
 
 **Hình 4. Khẳng định mã 200 (Response Assertion)**
-![Assertion](images/jmeter-04-assertion.png)
+![Assertion](images/jmeter-04-assertion.PNG)
 
 **Hình 5. Nội dung body của request POST /products/add**
 ![POST body](images/jmeter-05-post-request.PNG)
